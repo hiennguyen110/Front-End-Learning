@@ -1,8 +1,31 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/*
+In-line style has the highest right to style the html
+If two elements have the same name, then who come after will overwrite the one that come first
+This will overwrite anything which was defined in the first one, but it also add new definitions if the first one does not have
+This is something like updating
+
+The order or the specificity or the css rules
+In-line selector > id selector > .class, :pseudo-class and attribute selector > tag selector
+If you want to have a default style for every single element in the html file, then add those properties inside the parent tag
+Something like the <body> tag
+If you have some element inside and you want to force it to inherit from the parents then use the keyword inherit
+
+There are four type of combinator
++ Adjacent Sibling
++ General Sibling
++ Child
++ Descendant 
+*/
+.classfont {
+  font-size: 20px;
 }
 
-a {
-  color: #00B7FF;
+
+p {
+  font-size: 100px;
+}
+
+p {
+  color: blue;
+
 }
