@@ -11,21 +11,165 @@ Something like the <body> tag
 If you have some element inside and you want to force it to inherit from the parents then use the keyword inherit
 
 There are four type of combinator
+
 + Adjacent Sibling
+
+h1 + p {
+  color: red;
+}
+
+if we have a div like this, then if there is a pair of h1+p go together
+then the p tag will have the css applied into it
+<div>
+<h2>Not Applied</h2>
+<p>CSS applied</p
+</div>
+
 + General Sibling
+
+h1 ~ p {
+  color: red;
+}
+
+if we have a div like this, then if there is a h2 tag before the target tag, then there will be
+a css style applied into the target tag
+<div>
+<h2>Not Applied</h2>
+<p>CSS applied</p
+<h2>Not Applied</h2>
+<h3>Not Applied</h3>
+<p>CSS Applied</p>
+</div>
+
 + Child
-+ Descendant 
+
+div > p {
+  color: red;
+}
+
+If the p tag is the direct child of the div element, then it will have the css applied into it
+<div>
+  <div>Not Applied</div>
+  <p>CSS applied</p>
+  <div>Not Applied</div>
+  <article>
+    <p>Not Applied because not a direct child</p>
+  </article>
+</div>
+
++ Descendant
+
+div p {
+  color: red;
+}
+
+If the p tag is the direct or non-direct child of the div element, then it will have the css applied into it
+<div>
+  <div>Not Applied</div>
+  <p>CSS applied</p>
+  <div>Not Applied</div>
+  <article>
+    <p>CSS applied</p>
+  </article>
+</div>
+
+margin top right bottom left
+margin top-bottom left-right
+margin all
+
+height and width properties will set the element height and width based on the value of  their parents
 */
-.classfont {
-  font-size: 20px;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+}
+
+#product-overview {
+  background: orangered;
+  width: 100%;
+  height: 528px;
+  padding: 10px;
+}
+
+.section-title {
+  color: green;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: "Arial";
+}
+
+.main-header {
+  background-color: #2ddf5c;
+  width: 100%;
+  padding: 8px 16px;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 75px);
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.main-nav__item {
+  display: inline;
+  margin: 0 20px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
+  font-weight: bold;
+}
+
+.main-nav__item a:hover {
+  color: white;
+}
+
+.main-nav__item a:active {
+  color: white;
+}
+
+.main-nav__item a:focus {
+  color: white;
 }
 
 
-p {
-  font-size: 100px;
-}
 
-p {
-  color: blue;
 
-}
+
+
+
+
+
+
+
+
+
+
+
