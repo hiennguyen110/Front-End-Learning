@@ -185,7 +185,13 @@ body {
 }
 
 .hosting-plan > ul {
+  padding: 0;
+}
+
+.hosting-plan > ul > li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .recommended-hosting-plan {
@@ -195,6 +201,27 @@ body {
   color: white;
   box-shadow: 2px 2px 2px 2px rgba(0,0,0, 0.4);
   border-radius: 15px;
+}
+
+.hosting-plan button {
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  color: white;
+  background: #0e4f1f;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 15px;
+}
+
+.hosting-plan button:hover,
+.hosting-plan button:active {
+  background: whitesmoke;
+  color: #0e4f1f;
+  outline-style: none;
+}
+
+.hosting-plan button:focus {
+  outline-style: none;
 }
 
 .recommended-hosting-plan button {
@@ -211,7 +238,13 @@ body {
 .recommended-hosting-plan button:active {
   background: white;
   color: #ff1b68;
+  outline-style: none;
 }
+
+.recommended-hosting-plan button:focus {
+  outline-style: none;
+}
+
 
 .recommended-hosting-plan-title {
   background: white;
@@ -222,6 +255,25 @@ body {
   border-radius: 10px;
 }
 
+.hosting-plan__name {
+  color: #0e4f1f;
+}
+
+.hosting-plan__name_recommended {
+  color: white;
+}
+
+.hosting-plan__price {
+  color: dimgrey;
+}
+
+.hosting-plan__price_recommended {
+  color: #0e4f1f;
+}
+
+.hosting-plan__description {
+
+}
 
 
 
