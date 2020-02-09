@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "live-server": "live-server public --port=3000 --host=localhost"
   },
   "dependencies": {
     "chalk": "^3.0.0",
@@ -13,6 +14,7 @@
     "ejs": "^3.0.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "live-server": "^1.2.1",
     "morgan": "~1.9.1",
     "nodemon": "^2.0.2",
     "pug": "2.0.0-beta11",
