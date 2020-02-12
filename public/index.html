@@ -5,6 +5,18 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--    Bootstrap CDN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheets/style.css">
     <!--    Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -12,75 +24,157 @@
     <title>Front-End Development</title>
 </head>
 <body>
-    <header class="main-header">
+<header class="main-header">
+    <div>
+        <a class="main-header__brand" href="index.html">TellUs</a>
+    </div>
+    <nav class="main-nav">
+        <ul class="main-nav__items">
+            <li class="main-nav__item"><a href="#">Packages</a></li>
+            <li class="main-nav__item"><a href="#">Customers</a></li>
+            <li class="main-nav__item main-nav__item--cta"><a href="#">Start Hosting</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="product-overview">
+        <h1>Get the freedom you deserve</h1>
+    </section>
+    <section id="plans">
+        <h1 class="section-title">Choose Your Plan</h1>
         <div>
-            <a class="main-header__brand" href="index.html">TellUs</a>
+
+            <article class="hosting-plan">
+                <h1>FREE</h1>
+                <h2 class="hosting-plan__price">$0/month</h2>
+                <h3 class="hosting-plan__description">For hobby projects or small teams.</h3>
+                <ul>
+                    <li>One Workspace</li>
+                    <li>Unlimited Traffic</li>
+                    <li>10GB Storage</li>
+                    <li>Basic Support</li>
+                </ul>
+                <div>
+                    <button>CHOOSE PLAN</button>
+                </div>
+            </article>
+
+            <article class="hosting-plan recommended-hosting-plan">
+                <h1 class="recommended-hosting-plan-title">RECOMMENDED</h1>
+                <h1 class="hosting-plan__name_recommended">PLUS</h1>
+                <h2 class="hosting-plan__price_recommended">$29/month</h2>
+                <h3 class="hosting-plan__description">For ambitious projects.</h3>
+                <ul>
+                    <li>Five Workspaces</li>
+                    <li>Unlimited Traffic</li>
+                    <li>100GB Storage</li>
+                    <li>Plus Support</li>
+                </ul>
+                <div>
+                    <button>CHOOSE PLAN</button>
+                </div>
+            </article>
+
+            <article class="hosting-plan">
+                <h1 class="hosting-plan__name">PREMIUM</h1>
+                <h2 class="hosting-plan__price">$99/month</h2>
+                <h3 class="hosting-plan__description">For enterprise solution.</h3>
+                <ul>
+                    <li>100 Workspaces</li>
+                    <li>Unlimited Traffic</li>
+                    <li>Unlimited Storage</li>
+                    <li>Priority Support</li>
+                </ul>
+                <div>
+                    <button>CHOOSE PLAN</button>
+                </div>
+            </article>
         </div>
-        <nav class="main-nav">
-            <ul class="main-nav__items">
-                <li class="main-nav__item"><a href="#">Packages</a></li>
-                <li class="main-nav__item"><a href="#">Customers</a></li>
-                <li class="main-nav__item main-nav__item--cta"><a href="#">Start Hosting</a></li>
-            </ul>
-        </nav>
-    </header>
+    </section>
 
-    <main>
-        <section id="product-overview">
-            <h1>Get the freedom you deserve</h1>
-        </section>
-        <section id="plans">
-            <h1 class="section-title">Choose Your Plan</h1>
-            <div>
+    <section id="key-features">
+        <h1 class="section-title">Many Good Reasons To Stick Around</h1>
+        <ul class="key-feature__list">
+            <li class="key-feature">
+                <div class="key-feature__image">
 
-                <article class="hosting-plan">
-                    <h1>FREE</h1>
-                    <h2 class="hosting-plan__price">$0/month</h2>
-                    <h3 class="hosting-plan__description">For hobby projects or small teams.</h3>
-                    <ul>
-                        <li>One Workspace</li>
-                        <li>Unlimited Traffic</li>
-                        <li>10GB Storage</li>
-                        <li>Basic Support</li>
-                    </ul>
-                    <div>
-                        <button>CHOOSE PLAN</button>
-                    </div>
-                </article>
+                </div>
+                <p class="key-feature__description">Over 3,999,000,000 Trusting Customers Using Our Products</p>
+            </li>
 
-                <article class="hosting-plan recommended-hosting-plan">
-                    <h1 class="recommended-hosting-plan-title">RECOMMENDED</h1>
-                    <h1 class="hosting-plan__name_recommended">PLUS</h1>
-                    <h2 class="hosting-plan__price_recommended">$29/month</h2>
-                    <h3 class="hosting-plan__description">For ambitious projects.</h3>
-                    <ul>
-                        <li>Five Workspaces</li>
-                        <li>Unlimited Traffic</li>
-                        <li>100GB Storage</li>
-                        <li>Plus Support</li>
-                    </ul>
-                    <div>
-                        <button>CHOOSE PLAN</button>
-                    </div>
-                </article>
+            <li class="key-feature">
+                <div class="key-feature__image">
 
-                <article class="hosting-plan">
-                    <h1 class="hosting-plan__name">PREMIUM</h1>
-                    <h2 class="hosting-plan__price">$99/month</h2>
-                    <h3 class="hosting-plan__description">For enterprise solution.</h3>
-                    <ul>
-                        <li>100 Workspaces</li>
-                        <li>Unlimited Traffic</li>
-                        <li>Unlimited Storage</li>
-                        <li>Priority Support</li>
-                    </ul>
-                    <div>
-                        <button>CHOOSE PLAN</button>
-                    </div>
-                </article>
-            </div>
-            <p>Make sure you get the most for your money</p>
-        </section>
-    </main>
+                </div>
+                <p class="key-feature__description">99.999% Uptime Guarantee</p>
+            </li>
+
+            <li class="key-feature">
+                <div class="key-feature__image">
+
+                </div>
+                <p class="key-feature__description">Lightning Fast and Reliable Servers</p>
+            </li>
+        </ul>
+    </section>
+</main>
+
+<footer id="footer">
+    <nav>
+        <ul class="footer-list">
+            <h3 class="footer-title">About TellUs</h3>
+            <li class="footer-link"><a href="#">About Us</a></li>
+            <li class="footer-link"><a href="#">News</a></li>
+            <li class="footer-link"><a href="#">Contact Us</a></li>
+            <li class="footer-link"><a href="#">Investor Relations</a></li>
+            <li class="footer-link"><a href="#">Careers</a></li>
+            <li class="footer-link"><a href="#">TellUs Store</a></li>
+            <li class="footer-link"><a href="#">Trust Center</a></li>
+            <li class="footer-link"><a href="#">Legal</a></li>
+            <li class="footer-link"><a href="#">Blogs</a></li>
+        </ul>
+
+        <ul class="footer-list">
+            <h3 class="footer-title">Support</h3>
+            <li class="footer-link"><a href="#">Product Support</a></li>
+            <li class="footer-link"><a href="#">Community</a></li>
+            <li class="footer-link"><a href="#">Report Abuse</a></li>
+        </ul>
+
+        <ul class="footer-list">
+            <h3 class="footer-title">Resources</h3>
+            <li class="footer-link"><a href="#">Webmail</a></li>
+            <li class="footer-link"><a href="#">WHOIS</a></li>
+            <li class="footer-link"><a href="#">ICANN Confirmation</a></li>
+            <li class="footer-link"><a href="#">Designers and Developers</a></li>
+            <li class="footer-link"><a href="#">Redeem Code</a></li>
+            <li class="footer-link"><a href="#">Product Catalog</a></li>
+            <li class="footer-link"><a href="#">Site Map</a></li>
+        </ul>
+
+        <ul class="footer-list">
+            <h3 class="footer-title">Partner Programs</h3>
+            <li class="footer-link"><a href="#">Reseller Programs</a></li>
+            <li class="footer-link"><a href="#">TellUs Pro</a></li>
+        </ul>
+
+        <ul class="footer-list">
+            <h3 class="footer-title">Account</h3>
+            <li class="footer-link"><a href="#">My Account</a></li>
+            <li class="footer-link"><a href="#">Create Account</a></li>
+        </ul>
+
+        <ul class="footer-list">
+            <h3 class="footer-title">Shopping</h3>
+            <li class="footer-link"><a href="#">Domains</a></li>
+            <li class="footer-link"><a href="#">Websites</a></li>
+            <li class="footer-link"><a href="#">Hosting</a></li>
+            <li class="footer-link"><a href="#">Web Security</a></li>
+            <li class="footer-link"><a href="#">Email and Office</a></li>
+            <li class="footer-link"><a href="#">Promos</a></li>
+        </ul>
+    </nav>
+</footer>
 </body>
 </html>
