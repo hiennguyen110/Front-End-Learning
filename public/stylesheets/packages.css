@@ -1,0 +1,84 @@
+.packages {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.package {
+    width: 80%;
+    margin: 16px 0;
+    border: solid 4px #0e4f1f;
+    border-left: none;
+}
+
+.package:hover,
+.package:active,
+.package:focus {
+    border: solid 4px #FD4D00;
+    border-left: none;
+    box-shadow: 12px 12px 20px 4px rgba(115, 115, 115, .3);
+}
+
+.package a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+.package a > h1 {
+
+}
+
+.package a > h2 {
+
+}
+
+.package a > p {
+    display: inline-block;
+    padding: 16px;
+    border-radius: 15px;
+    border: 3px solid black;
+    font-weight: bold;
+    font-size: 22px;
+    color: #ff1b68;
+    background: white;
+}
+
+.package a > p:hover,
+.package a > p:active,
+.package a > p:focus {
+    background: #ff1b68;
+    color: white;
+}
+
+#plus-plan {
+    background: rgba(213,255,220, 0.95);
+}
+
+#free-plan {
+    background: rgba(234, 252, 237, 0.95);
+}
+
+#premium-plan {
+    background: rgba(14, 79, 31, 0.95);
+}
+
+#premium-plan a > h1 {
+    color: white;
+}
+
+#premium-plan a > h2 {
+    color: #bbbbbb;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -18,6 +18,7 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/packages.css">
     <!--    Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
@@ -26,7 +27,7 @@
 <body>
 <header class="main-header">
     <div>
-        <a class="main-header__brand" href="index.html">TellUs</a>
+        <a class="main-header__brand" href="./index.html">TellUs</a>
     </div>
     <nav class="main-nav">
         <ul class="main-nav__items">
@@ -37,86 +38,29 @@
     </nav>
 </header>
 
-<main>
-    <section id="product-overview">
-        <h1>Get the freedom you deserve</h1>
-    </section>
-    <section id="plans">
-        <h1 class="section-title">Choose Your Plan</h1>
-        <div>
-
-            <article class="hosting-plan">
-                <h1>FREE</h1>
-                <h2 class="hosting-plan__price">$0/month</h2>
-                <h3 class="hosting-plan__description">For hobby projects or small teams.</h3>
-                <ul>
-                    <li>One Workspace</li>
-                    <li>Unlimited Traffic</li>
-                    <li>10GB Storage</li>
-                    <li>Basic Support</li>
-                </ul>
-                <div>
-                    <button>CHOOSE PLAN</button>
-                </div>
-            </article>
-
-            <article class="hosting-plan recommended-hosting-plan">
-                <h1 class="recommended-hosting-plan-title">RECOMMENDED</h1>
-                <h1 class="hosting-plan__name_recommended">PLUS</h1>
-                <h2 class="hosting-plan__price_recommended">$29/month</h2>
-                <h3 class="hosting-plan__description">For ambitious projects.</h3>
-                <ul>
-                    <li>Five Workspaces</li>
-                    <li>Unlimited Traffic</li>
-                    <li>100GB Storage</li>
-                    <li>Plus Support</li>
-                </ul>
-                <div>
-                    <button>CHOOSE PLAN</button>
-                </div>
-            </article>
-
-            <article class="hosting-plan">
-                <h1 class="hosting-plan__name">PREMIUM</h1>
-                <h2 class="hosting-plan__price">$99/month</h2>
-                <h3 class="hosting-plan__description">For enterprise solution.</h3>
-                <ul>
-                    <li>100 Workspaces</li>
-                    <li>Unlimited Traffic</li>
-                    <li>Unlimited Storage</li>
-                    <li>Priority Support</li>
-                </ul>
-                <div>
-                    <button>CHOOSE PLAN</button>
-                </div>
-            </article>
-        </div>
+<main class="packages">
+    <section class="package" id="plus-plan">
+        <a href="#">
+            <h1>Our Plus Plan</h1>
+            <h2>The most popular choice of our customers.</h2>
+            <p>Benefit from increased storage and faster support to ensure that your missions are always available!</p>
+        </a>
     </section>
 
-    <section id="key-features">
-        <h1 class="section-title">Many Good Reasons To Stick Around</h1>
-        <ul class="key-feature__list">
-            <li class="key-feature">
-                <div class="key-feature__image">
+    <section class="package" id="free-plan">
+        <a href="#">
+            <h1>Our Free Plan</h1>
+            <h2>An extremely solid start into our hosting world.</h2>
+            <p>Get started immediately at zero cost!</p>
+        </a>
+    </section>
 
-                </div>
-                <p class="key-feature__description">Over 3,999,000,000 Trusting Customers Using Our Products</p>
-            </li>
-
-            <li class="key-feature">
-                <div class="key-feature__image">
-
-                </div>
-                <p class="key-feature__description">99.999% Uptime Guarantee</p>
-            </li>
-
-            <li class="key-feature">
-                <div class="key-feature__image">
-
-                </div>
-                <p class="key-feature__description">Lightning Fast and Reliable Servers</p>
-            </li>
-        </ul>
+    <section class="package" id="premium-plan">
+        <a href="#">
+            <h1>Our Premium Plan</h1>
+            <h2>All your enterprise needs. Instance support, guaranteed uptime.</h2>
+            <p>The best solution for small to large enterprises. Because hosting should not be your problem!</p>
+        </a>
     </section>
 </main>
 
