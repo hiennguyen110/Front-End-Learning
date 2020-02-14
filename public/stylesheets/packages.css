@@ -4,18 +4,10 @@
 }
 
 .package {
-    width: 80%;
+    width: 55%;
     margin: 16px 0;
     border: solid 4px #0e4f1f;
     border-left: none;
-}
-
-.package:hover,
-.package:active,
-.package:focus {
-    border: solid 4px #FD4D00;
-    border-left: none;
-    box-shadow: 12px 12px 20px 4px rgba(115, 115, 115, .3);
 }
 
 .package a {
@@ -45,6 +37,14 @@
     background: white;
 }
 
+.package:hover,
+.package:active,
+.package:focus {
+    border: solid 4px #FD4D00;
+    border-left: none;
+    box-shadow: 12px 12px 20px 4px rgba(115, 115, 115, .3);
+}
+
 .package a > p:hover,
 .package a > p:active,
 .package a > p:focus {
@@ -52,12 +52,26 @@
     color: white;
 }
 
+.clearfix {
+    clear: both;
+}
+
 #plus-plan {
-    background: rgba(213,255,220, 0.95);
+    background: rgba(213, 255, 220, 0.95);
 }
 
 #free-plan {
+    float: right;
     background: rgba(234, 252, 237, 0.95);
+    border-left: solid 4px #0e4f1f;
+    border-right: none;
+    text-align: right;
+}
+
+#free-plan:hover,
+#free-plan:active,
+#free-plan:focus {
+    border-left: solid 4px #FD4D00;
 }
 
 #premium-plan {
@@ -71,6 +85,8 @@
 #premium-plan a > h2 {
     color: #bbbbbb;
 }
+
+
 
 
 
