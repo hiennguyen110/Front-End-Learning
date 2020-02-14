@@ -89,6 +89,11 @@ body {
   margin: 0;
 }
 
+#plans {
+  width: 80%;
+  margin: auto;
+}
+
 #product-overview {
   background: orangered;
   width: 100%;
@@ -173,6 +178,10 @@ body {
   border: none;
 }
 
+.hosting-plan__options {
+  text-align: center;
+}
+
 .hosting-plan {
   background: #d5ffdc;
   text-align: center;
@@ -245,7 +254,6 @@ body {
   outline-style: none;
 }
 
-
 .recommended-hosting-plan-title {
   background: white;
   color: #19b84c;
@@ -277,6 +285,8 @@ body {
 
 #key-features {
   background: #ff1b68;
+  width: 100%;
+  margin: auto;
   margin-top: 80px;
   padding: 16px;
 }
@@ -290,6 +300,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .key-feature {
