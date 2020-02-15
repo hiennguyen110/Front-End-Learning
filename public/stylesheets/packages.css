@@ -1,3 +1,7 @@
+.main-header {
+    z-index: 1;
+}
+
 .package-background {
     background: url("https://images.pexels.com/photos/2881229/pexels-photo-2881229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     width: 100%;
@@ -16,6 +20,21 @@
     margin: 16px 0;
     border: solid 4px #0e4f1f;
     border-left: none;
+    position: relative;
+}
+
+.package__badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #FD4D00;
+    color: white;
 }
 
 .package a {
@@ -93,7 +112,6 @@
 #premium-plan a > h2 {
     color: #bbbbbb;
 }
-
 
 
 
