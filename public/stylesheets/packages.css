@@ -13,6 +13,8 @@
 .packages {
     padding-top: 32px;
     padding-bottom: 32px;
+    position: relative;
+    z-index: 0;
 }
 
 .package {
@@ -113,12 +115,15 @@
     color: #bbbbbb;
 }
 
-
-
-
-
-
-
+/*If you use the overflow properties to hidden then the child element inside the block will be not visible if its position is out of the area of the parents*/
+/*The relative position will set the position of the element relative to the parent element*/
+/*The absolute position will set the position of the element relative to the view port or the root*/
+/*There is one problem with the overflow: hidden
+if you place it inside the body tag, it will not work, but if you also place it to the html tag it will work
+The best way to fix this one is using the class and the children will be relative to the tag not the body or the system tag*/
+/*Sticky positioning is the same as the fixed, but it will let the element flow when it need to be while the fixed element will keep the element static at all time*/
+/*The sticky element will stop being fixed if we reach the end of its parent element
+The sticky element will behave relative to the view port*/
 
 
 
