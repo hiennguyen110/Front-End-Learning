@@ -95,10 +95,15 @@ body {
 }
 
 #product-overview {
-  background: orangered;
+  position: relative;
+  background: url("https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 528px;
+  height: 700px;
   padding: 10px;
+  margin-top: 49px;
+  z-index: -1;
 }
 
 .section-title {
@@ -110,11 +115,18 @@ body {
 
 #product-overview h1 {
   color: white;
-  font-family: "Arial";
+  font-family: 'Bree Serif', serif;
+  font-size: 50px;
+  position: absolute;
+  bottom: 50%;
+  left: 30px;
+  margin-bottom: 0;
 }
 
 .main-header {
   position: fixed;
+  top: 0;
+  left: 0;
   background-color: #2ddf5c;
   width: 100%;
   padding: 8px 16px;
@@ -123,6 +135,8 @@ body {
 .main-header > div {
   display: inline-block;
   vertical-align: middle;
+  position: relative;
+  z-index: 1;
 }
 
 .main-header__brand {
@@ -361,9 +375,10 @@ body {
   font-weight: bold;
 }
 
-
-
-
+/*When we use the stacking theory
+then there are few things to remember
+The stacking can just be created using the fixed, sticky or absolute/relative in combination with z-index
+The stacking will work as a namespace so the child element can have the z-index without affecting other element outside of its parent class*/
 
 
 
