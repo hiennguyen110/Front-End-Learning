@@ -1,10 +1,153 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--    Bootstrap CDN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/customers.css">
+    <!--    Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>Front-End Development</title>
 </head>
 <body>
+<header class="main-header">
+    <div>
+        <a class="main-header__brand" href="index.html">
+            <img src="images/CloudDataShare.ico" alt="Hosting Icon">
+        </a>
+    </div>
+    <nav class="main-nav">
+        <ul class="main-nav__items">
+            <li class="main-nav__item"><a href="./packages.html">Packages</a></li>
+            <li class="main-nav__item"><a href="./customers.html">Customers</a></li>
+            <li class="main-nav__item main-nav__item--cta"><a href="./hosting.html">Start Hosting</a></li>
+        </ul>
+    </nav>
+</header>
 
+<main>
+    <div class="customer__opinion">
+        <div class="testimonial" id="customer-1">
+            <div class="testimonial__image-container">
+                <img class="customer-image"
+                     src="https://i.pinimg.com/originals/bb/55/b2/bb55b243a1160fd5d04d78e63ed1e22d.jpg" alt="winston">
+            </div>
+            <div class="customer-information">
+                <h1 class="customer__name">John Wick</h1>
+                <h2 class="customer__subtitle">Founder of
+                    <a href="https://www.google.ca">Google Canada</a>
+                </h2>
+                <div class="customer__text_container">
+                    <p class="customer__text">TellUs supported me to complete my mission</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial" id="customer-2">
+            <div class="testimonial__image-container">
+                <img class="customer-image"
+                     src="https://i.pinimg.com/originals/bb/55/b2/bb55b243a1160fd5d04d78e63ed1e22d.jpg" alt="winston">
+            </div>
+            <div class="customer-information">
+                <h1 class="customer__name">Thor</h1>
+                <h2 class="customer__subtitle">Founder of
+                    <a href="https://www.nasa.gov">Nasa Canada</a>
+                </h2>
+                <div class="customer__text_container">
+                    <p class="customer__text">TellUs is the best streaming service if you want to stream from space</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial" id="customer-3">
+            <div class="testimonial__image-container">
+                <img class="customer-image"
+                     src="https://i.pinimg.com/originals/bb/55/b2/bb55b243a1160fd5d04d78e63ed1e22d.jpg" alt="winston">
+            </div>
+            <div class="customer-information">
+                <h1 class="customer__name">Winston</h1>
+                <h2 class="customer__subtitle">Founder of
+                    <a href="https://www.google.ca">Continental</a>
+                </h2>
+                <div class="customer__text_container">
+                    <p class="customer__text">TellUs supported me to create a secret hot-line for continental
+                        network</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer id="footer">
+    <nav>
+        <ul class="footer-list">
+            <h3 class="footer-title">About TellUs</h3>
+            <li class="footer-link"><a href="#">About Us</a></li>
+            <li class="footer-link"><a href="#">News</a></li>
+            <li class="footer-link"><a href="#">Contact Us</a></li>
+            <li class="footer-link"><a href="#">Investor Relations</a></li>
+            <li class="footer-link"><a href="#">Careers</a></li>
+            <li class="footer-link"><a href="#">TellUs Store</a></li>
+            <li class="footer-link"><a href="#">Trust Center</a></li>
+            <li class="footer-link"><a href="#">Legal</a></li>
+            <li class="footer-link"><a href="#">Blogs</a></li>
+        </ul>
+
+        <ul class="footer-list">
+            <h3 class="footer-title">Support</h3>
+            <li class="footer-link"><a href="#">Product Support</a></li>
+            <li class="footer-link"><a href="#">Community</a></li>
+            <li class="footer-link"><a href="#">Report Abuse</a></li>
+        </ul>
+
+        <ul class="footer-list">
+            <h3 class="footer-title">Resources</h3>
+            <li class="footer-link"><a href="#">Webmail</a></li>
+            <li class="footer-link"><a href="#">WHOIS</a></li>
+            <li class="footer-link"><a href="#">ICANN Confirmation</a></li>
+            <li class="footer-link"><a href="#">Designers and Developers</a></li>
+            <li class="footer-link"><a href="#">Redeem Code</a></li>
+            <li class="footer-link"><a href="#">Product Catalog</a></li>
+            <li class="footer-link"><a href="#">Site Map</a></li>
+        </ul>
+
+        <ul class="footer-list">
+            <h3 class="footer-title">Partner Programs</h3>
+            <li class="footer-link"><a href="#">Reseller Programs</a></li>
+            <li class="footer-link"><a href="#">TellUs Pro</a></li>
+        </ul>
+
+        <ul class="footer-list">
+            <h3 class="footer-title">Account</h3>
+            <li class="footer-link"><a href="#">My Account</a></li>
+            <li class="footer-link"><a href="#">Create Account</a></li>
+        </ul>
+
+        <ul class="footer-list">
+            <h3 class="footer-title">Shopping</h3>
+            <li class="footer-link"><a href="#">Domains</a></li>
+            <li class="footer-link"><a href="#">Websites</a></li>
+            <li class="footer-link"><a href="#">Hosting</a></li>
+            <li class="footer-link"><a href="#">Web Security</a></li>
+            <li class="footer-link"><a href="#">Email and Office</a></li>
+            <li class="footer-link"><a href="#">Promos</a></li>
+        </ul>
+    </nav>
+</footer>
 </body>
 </html>

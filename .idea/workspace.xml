@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6513f646-5c8d-4d74-adf6-710ad64bafc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/CloudDataShare.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/customers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/customers.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/customers.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +34,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -55,21 +60,25 @@
       <workItem from="1581703908104" duration="6661000" />
       <workItem from="1581798666482" duration="3399000" />
       <workItem from="1582134056859" duration="9670000" />
+      <workItem from="1582310461917" duration="7806000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1581703912261">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581703912261" />
-    <state x="461" y="182" key="SettingsEditor" timestamp="1582134389849">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="2381" y="163" key="SettingsEditor" timestamp="1582310490485">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581799787905" />
+    <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582310490485" />
     <state x="461" y="182" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1582134389849" />
     <state x="2381" y="163" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1581538943832" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1581703921271">
